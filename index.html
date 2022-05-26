@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>RenderTimeCalc</title>
+	
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link href="style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+	
+</head>
+
+<body>
+	
+	<div class="mainbox">
+		<h2>Render Time Calculator</h2>
+		
+		<div id="inputbox_time">
+			<input class="input_num" id="input_num_min" type="number" max="9999" min="0" value="0"><a>min</a><input class="input_num" id="input_num_sec" type="number" max="59" min="0" value="0"><a>sec</a>
+		</div>
+		
+		<div id="inputbox_frame">
+			<input class="input_num" id="input_num_frame" type="number" max="9999" min="0" value="0"><a>frame</a>
+		</div>
+		
+		<br>
+		<button id="OK_button" type="button">OK</button>
+		<br>
+		
+		<h3 id="result">RenderTime: 0h 0m 0s</h3>
+	</div>
+</body>
+</html>
